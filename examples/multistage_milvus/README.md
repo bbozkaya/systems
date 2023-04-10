@@ -7,3 +7,5 @@ on it. It will then create a Triton ensemble workflow and package to make neares
 will return the top-k ordered list of items relevant to the user id being queried.
 
 Commands needed to install and start a milvus server (before creating a vector index and querying it) are included in the second notebook.
+
+Note: This version of milvus (2.2.X) used in the notebooks does not support GPU acceleration.
